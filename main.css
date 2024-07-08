@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+header {
+    background-color: #B1D9DB;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.btn-signup {
+    background-color: #a3d5d3;
+    color: #110c0c;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border: #110c0c;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #B1D9DB;
+    flex-wrap: wrap; 
+}
+
+.hero-content {
+    max-width: 600px;
+    flex: 1; 
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.btn-primary, .btn-secondary {
+    background-color: #F1A501;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.btn-secondary {
+    background-color: #ff6b6b;
+    max-width: 30em;
+}
+
+.hero-image {
+    flex: 1; 
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.services {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #B1D9DB;
+}
+
+.services h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+.service-card {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    flex: 1;
+    margin-bottom: 20px; 
+}
+
+.service-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.top-destinations {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #B1D9DB;
+}
+
+.top-destinations h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.destination-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+.destination-card {
+    flex: 1; 
+    text-align: center;
+}
+
+.destination-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.destination-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.newsletter h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; 
+    max-width: 300px; 
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #a3d5d3;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #B1D9DB;
+    color: #333;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    max-width: 200px;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+}
+
+.footer-links {
+    max-width: 200px;
+}
+
+.footer-links h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+@media (max-width: 768px) {
+    .btn-signup, .btn-primary, .btn-secondary {
+        padding: 8px 16px; 
+        font-size: 14px; 
+    }
+}
